@@ -24,12 +24,9 @@ impl User {
 
 fn main() {
     let mut user = User::new(String::from("Ravi"), 40);
-
     user.greet();
     user.print_details();
-
     user.have_birthday();
-
     println!("After birthday:");
     user.print_details();
 }

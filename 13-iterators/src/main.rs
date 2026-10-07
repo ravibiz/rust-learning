@@ -9,7 +9,6 @@ fn main() {
         .collect();
 
     println!("Slow responses:");
-
     for time in &slow_responses {
         println!("{}", time);
     }
@@ -21,7 +20,6 @@ fn main() {
         .collect();
 
     println!("Doubled response times:");
-
     for time in &doubled_times {
         println!("{}", time);
     }

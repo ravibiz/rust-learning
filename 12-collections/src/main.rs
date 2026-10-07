@@ -9,7 +9,6 @@ fn main() {
     response_times.push(95);
 
     println!("Response times:");
-
     for time in &response_times {
         println!("{}", time);
     }
@@ -22,10 +21,8 @@ fn main() {
 
     // HashMap
     let mut users: HashMap<i32, String> = HashMap::new();
-
     users.insert(1, String::from("Ravi"));
     users.insert(2, String::from("John"));
-
     match users.get(&1) {
         Some(name) => println!("User 1: {}", name),
         None => println!("User not found"),

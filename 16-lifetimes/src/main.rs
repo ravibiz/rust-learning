@@ -9,8 +9,6 @@ fn longer<'a>(a: &'a str, b: &'a str) -> &'a str {
 fn main() {
     let first = String::from("Rust");
     let second = String::from("Programming");
-
     let result = longer(&first, &second);
-
     println!("Longer string: {}", result);
 }

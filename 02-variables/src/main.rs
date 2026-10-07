@@ -1,6 +1,5 @@
 fn main() {
     let name = "Ravi";
-
     let mut age = 40;
 
     println!("Name: {}", name);
